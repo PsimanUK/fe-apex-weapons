@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/header.jsx'
 import WeaponTable from './components/weapon-table.jsx'
+import WeaponAdder from './components/weapon-adder.jsx';
 
 const weaponData = [
   { name: 'R-99', type: 'SMG', ammo: 'Light', damage: '12', dps: '100', },
@@ -17,7 +18,8 @@ function App() {
     <div className="App">
       <Header />
       <h2>Your online resource for Apex Legends weapons data</h2>
-      <WeaponTable />
+      <WeaponTable weapons={weaponData} />
+      <WeaponAdder />
     </div>
   );
 }
