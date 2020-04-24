@@ -28,14 +28,3 @@ function WeaponTable(props) {
 };
 
 export default WeaponTable;
-
-// {animals.map(({ name, image, cuteness }) => {
-//     return (
-//         <li key={name}>
-//             <h2>{name}</h2>
-//             <p>Cuteness Rating: {cuteness}</p>
-//             {showImages && <img src={image} alt={name} />}
-//             <p>---***---</p>
-//         </li>
-//     );
-// })}
